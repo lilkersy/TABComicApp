@@ -24,7 +24,7 @@ public class ComicManager extends BaseManager {
      * @param request Parameters for the request
      * @param callback Handler called on request completion
      */
-    public void listComics(ComicRequest request, Callback<ServiceResponse<ComicService>> callback) {
+    public void listComics(ComicRequest request, Callback<ServiceResponse<Comic>> callback) {
         comics.listComics(request.getLimit()
                 , request.getOffset()
                 , String.valueOf(request.getTimestamp())

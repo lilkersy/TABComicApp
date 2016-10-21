@@ -9,6 +9,8 @@ import com.squareup.okhttp.OkHttpClient;
 
 import java.util.Date;
 
+import ifeanyi.com.tab.tabcomicapp.marvelapi.request.RequestSignature;
+import ifeanyi.com.tab.tabcomicapp.marvelapi.response.DateAdapter;
 import retrofit.RestAdapter;
 import retrofit.client.OkClient;
 import retrofit.converter.GsonConverter;

@@ -34,7 +34,7 @@ public interface ComicService {
             , @Query("sharedAppearances") String sharedAppearances
             , @Query("collaborators") String collaborators
             , @Query("orderBy") String orderBy
-            , Callback<ServiceResponse<ComicService>> callback);
+            , Callback<ServiceResponse<Comic>> callback);
 
     @GET("/v1/public/comics/{comicId}")
     public void getComicWithId(@Path("comicId") int comicId

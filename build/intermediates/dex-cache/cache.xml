@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/internal_impl-23.3.0_5b52eefd24248ecfbc467c7ae566c6945346232c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.3.0_455ea5ef20ce8408a6966ea18256efe2c228c6a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/gson-2.3_f2070523c2d222b24efde4013126b2bfbe59b219.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/Documents/App_Development/Android/Framework/adt-bundle-mac-x86_64-20130917/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/support-annotations-23.3.0_35dbc1c36d30f78dcd0a92281ee638aa8597dd7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.3.0_1ec747d90211feced882990111f22de48268a8f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.3.0_32dd52d1ce359742035852569047fb44ec627730.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.3.0_98c28988de78d8a4647a1171987fb1da994141e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.3.0_a8c88dd702d1160ad1d00f5cd0a9e1abfbb5d5fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.6.0/212387a39088ecd3daff8e3bfc3bdc4123e33c67/okhttp-2.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="212387a39088ecd3daff8e3bfc3bdc4123e33c67">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/okhttp-2.6.0_597d42973a54e5844701c33ab3826721be4879b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2f6b73afe8c420b91cf21c974240ec5ba4f4bccb">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_3a3848896ce4ab9d6f090bc71f730371e258ade4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/okio-1.6.0_0b08aea9911a4c3f2344b929e5f6c2bf8773df03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.3.0_3c6029320ad3d59d4e7a7a2962ceaca094e54b4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_ba19e9d214c5e267665eaadeaac9443bdf24bb38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.3.0_c7631c9b51f0d1cfdaeec09b8fef877695d483a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.6.0/f1c87f9ffe72bfcdce6f2514d12e42ed43410a87/okhttp-urlconnection-2.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f1c87f9ffe72bfcdce6f2514d12e42ed43410a87">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.6.0_21c7abcaf8f85ce21d551d0091b7ab015a5b8229.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/exploded-aar/com.miguelcatalan/materialsearchview/1.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="918e3e9514d90e54421b674cf0c95044f4e155ad">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/com.miguelcatalan-materialsearchview-1.4.0_9927dd812ea522a7f2051b94abe14c6265f0b9fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/commons-io-2.4_db9d9c7f5dc9abc44c05f9a56b43532b2a4af315.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_a8284d71740f97a47725e88a4bd8e59e657d8d9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.7.1/168a878946d665200edc733ac715b1264a6cd7b6/retrofit-1.7.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="168a878946d665200edc733ac715b1264a6cd7b6">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/retrofit-1.7.1_6f48f861908e166293ebd5131c0f294265d87903.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.4.0_c5e4844505e7f3e8cc6ac6481925882cf2ed645a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/glide-3.7.0_a887d6ae8126d9de597504867b94f3a64896248b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.0/8873bd0bb5cb9ee37f1b04578eb7e26fcdd44cb0/commons-lang3-3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8873bd0bb5cb9ee37f1b04578eb7e26fcdd44cb0">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/commons-lang3-3.0_624816691975f3917f5e45d696858b7e47b6ff97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c993a7552f0644dd6fc6691740dc0eb21ffba382">
+        <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/instant-run_8e86fd41142e0a1328ae529b839abe4854cb7bff.jar" />
+    </item>
+
+</items>
