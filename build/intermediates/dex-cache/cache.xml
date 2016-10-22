@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="2f6b73afe8c420b91cf21c974240ec5ba4f4bccb">
+        sha1="86c5f73db657e355527dce014308b385274f2e2b">
         <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_3a3848896ce4ab9d6f090bc71f730371e258ade4.jar" />
     </item>
     <item
@@ -205,7 +205,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="c993a7552f0644dd6fc6691740dc0eb21ffba382">
+        sha1="d1221c5a91f70cdcc058c16d980c25ba8e867f1c">
         <dex dex="/Users/brainergysolutions/AndroidStudioProjects/ComicApp/TABComicApp/app/build/intermediates/pre-dexed/debug/instant-run_8e86fd41142e0a1328ae529b839abe4854cb7bff.jar" />
     </item>
 

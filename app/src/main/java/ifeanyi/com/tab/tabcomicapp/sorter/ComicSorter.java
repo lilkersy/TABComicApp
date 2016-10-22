@@ -34,7 +34,7 @@ public class ComicSorter {
         setMaxPrice(_maxPrice);
     }
 
-    // calculte the solution of 0-1 knapsack problem with dynamic method:
+    
     public List<ComicData> calcSolution() {
         int n = ComicDataList.size();
 
@@ -80,7 +80,7 @@ public class ComicSorter {
                 {
                     ComicData iH = ComicDataList.get(i-1);
                     int  wH = iH.getPrice();
-                    iH.setInKnapsack(1);
+                    iH.setInContainer(1);
                     j -= wH;
                     solutionPrice += wH;
                 }
@@ -153,18 +153,18 @@ public class ComicSorter {
         }
     }
 
-    // set the member with name "inKnapsack" by all ComicDatas:
-    private void setInKnapsackByAll(int inKnapsack) {
+    // set the member with name "inContainer" by all ComicDatas:
+    private void setInContainerByAll(int inContainer) {
         for (ComicData ComicData : ComicDataList)
-            if (inKnapsack > 0)
-                ComicData.setInKnapsack(1);
+            if (inContainer > 0)
+                ComicData.setInContainer(1);
             else
-                ComicData.setInKnapsack(0);
+                ComicData.setInContainer(0);
     }
 
     // set the data members of class in the state of starting the calculation:
     protected void setInitialStateForCalculation() {
-        setInKnapsackByAll(0);
+        setInContainerByAll(0);
         calculated     = false;
         profit         = 0;
         solutionPrice = 0;

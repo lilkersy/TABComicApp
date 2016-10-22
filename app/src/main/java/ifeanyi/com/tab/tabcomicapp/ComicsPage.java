@@ -14,6 +14,8 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
@@ -74,6 +76,28 @@ public class ComicsPage extends AppCompatActivity {
         searchView = (EditText) findViewById(R.id.search);
         searchView.setHint("Search By Budget");
         searchView.setHintTextColor(Color.DKGRAY);
+
+        searchView.addTextChangedListener(new TextWatcher() {
+
+            public void afterTextChanged(Editable s) {
+                String newText = s.toString().trim();
+
+                if (newText.isEmpty() || newText.equals("")) {
+                    processData(comicList, 0, false);
+                    resultView.setText("");
+                    resultView.setVisibility(View.GONE);
+                }
+            }
+
+            public void beforeTextChanged(CharSequence s, int start,
+                                          int count, int after) {
+            }
+
+            public void onTextChanged(CharSequence s, int start,
+                                      int before, int count) {
+
+            }
+        });
 
         searchButton = (ImageButton) findViewById(R.id.search_button);
         searchButton.setOnClickListener(new SearchButtonListener());
@@ -251,11 +275,11 @@ public class ComicsPage extends AppCompatActivity {
                     sorter.add(comic);
                 }
 
-                List<ComicData> optimizedComicDatas = sorter.calcSolution();
+                List<ComicData> optimizedComicData = sorter.calcSolution();
 
                 if (sorter.isCalculated()) {
                     NumberFormat nf = NumberFormat.getInstance();
-                    System.out.println(
+                    /*System.out.println(
                             "Maximal weight           = " +
                                     nf.format(sorter.getMaxPrice() / 100.0) + " kg"
                     );
@@ -275,24 +299,24 @@ public class ComicsPage extends AppCompatActivity {
                     System.out.println(
                             "You can buy the following comics " +
                                     "in the knapsack:"
-                    );
-                    List<ComicData> fitComicDatas = new ArrayList<>();
-                    for (ComicData comic : optimizedComicDatas) {
-                        if (comic.getInKnapsack() == 1) {
-                            System.out.println(
+                    );*/
+                    List<ComicData> fitComicData = new ArrayList<>();
+                    for (ComicData comic : optimizedComicData) {
+                        if (comic.getInContainer() == 1) {
+                           /* System.out.println(
                                     "%1$-23s %2$-4s %3$-7s %4$-15s \n," +
                                             comic.getTitle() + "," +
                                             (comic.getPrice() / 100) + "," + "Pounds ," +
                                             "(Page Size = " + comic.getPageCount() + ")"
-                            );
-                            fitComicDatas.add(comic);
+                            );*/
+                            fitComicData.add(comic);
                         }
                     }
 
-                    resultView.setText("You can buy " + fitComicDatas.size() + " comics " +
+                    resultView.setText("You can buy " + fitComicData.size() + " comics " +
                             "having "+sorter.getProfit()+" pages for £" + nf.format((searchDouble / 100)));
                     resultView.setVisibility(View.VISIBLE);
-                    adapter = new ComicAdapter(getApplicationContext(), fitComicDatas);
+                    adapter = new ComicAdapter(getApplicationContext(), fitComicData);
                     setAdapter();
                 }
             }

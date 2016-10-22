@@ -22,7 +22,7 @@ public class ComicData implements Serializable {
     protected int price = 0;
     protected int pageCount = 0;
     protected int bounding = 1; // the maximal limit of ComicData's pieces
-    protected int inKnapsack = 0; // the pieces of ComicData in solution
+    protected int inContainer = 0; // the pieces of ComicData in solution
 
     public ComicData() {
     }
@@ -125,21 +125,21 @@ public class ComicData implements Serializable {
         pageCount = Math.max(_pageCount, 0);
     }
 
-    public void setInKnapsack(int _inKnapsack) {
-        inKnapsack = Math.min(getBounding(), Math.max(_inKnapsack, 0));
+    public void setInContainer(int _inContainer) {
+        inContainer = Math.min(getBounding(), Math.max(_inContainer, 0));
     }
 
     public void setBounding(int _bounding) {
         bounding = Math.max(_bounding, 0);
         if (bounding == 0)
-            inKnapsack = 0;
+            inContainer = 0;
     }
 
     public void checkMembers() {
         setprice(price);
         setpageCount(pageCount);
         setBounding(bounding);
-        setInKnapsack(inKnapsack);
+        setInContainer(inContainer);
     }
 
     public String getTitle() {
@@ -154,8 +154,8 @@ public class ComicData implements Serializable {
         return pageCount;
     }
 
-    public int getInKnapsack() {
-        return inKnapsack;
+    public int getInContainer() {
+        return inContainer;
     }
 
     public int getBounding() {
