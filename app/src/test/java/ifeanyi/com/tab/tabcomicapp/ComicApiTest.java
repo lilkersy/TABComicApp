@@ -81,10 +81,6 @@ public class ComicApiTest {
     protected <T> void assertBasicMarvelResponse(ServiceResponse<T> marvelResponse) {
         assertEquals(200, marvelResponse.code);
         assertEquals("Ok", marvelResponse.status);
-        //assertEquals("© 2015 MARVEL", marvelResponse.);
-        //assertEquals("Data provided by Marvel. © 2015 MARVEL", marvelResponse.getAttributionText());
-        /*assertEquals("<a href=\"http://marvel.com\">Data provided by Marvel. © 2015 MARVEL</a>",
-                marvelResponse.getGetAttributionHtml());*/
         assertEquals("55122b303dfbc9fdfd12c080eded740b83354269", marvelResponse.etag);
     }
 

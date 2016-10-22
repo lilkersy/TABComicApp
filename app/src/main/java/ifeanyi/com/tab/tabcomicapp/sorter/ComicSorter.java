@@ -38,6 +38,7 @@ public class ComicSorter {
     public List<ComicData> calcSolution() {
         int n = ComicDataList.size();
 
+        //Initialize the values
         setInitialStateForCalculation();
         if (n > 0  &&  maxPrice > 0) {
             List< List<Integer> > c = new ArrayList<>();
@@ -46,12 +47,16 @@ public class ComicSorter {
             c.add(curr);
             for (int j = 0; j <= maxPrice; j++)
                 curr.add(0);
+
+            //Iterate over a 2 dimensional array
             for (int i = 1; i <= n; i++) {
                 List<Integer> prev = curr;
                 c.add(curr = new ArrayList<>());
                 for (int j = 0; j <= maxPrice; j++) {
                     if (j > 0) {
+                        //Get the price of the previous item for the current column
                         int wH = ComicDataList.get(i-1).getPrice();
+
                         curr.add(
                                 (wH > j)
                                         ?
