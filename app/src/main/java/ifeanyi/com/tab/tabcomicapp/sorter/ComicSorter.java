@@ -48,7 +48,7 @@ public class ComicSorter {
             for (int j = 0; j <= maxPrice; j++)
                 curr.add(0);
 
-            //Iterate over a 2 dimensional array
+            //Iterate over the 2 dimensional array of items and prices (itemCount by maxPrice matrix)
             for (int i = 1; i <= n; i++) {
                 List<Integer> prev = curr;
                 c.add(curr = new ArrayList<>());
@@ -72,8 +72,11 @@ public class ComicSorter {
                     }
                 } // for (j...)
             } // for (i...)
+
+            //Make the new profit the current maximum price
             profit = curr.get(maxPrice);
 
+            //After all the cells has been filled, perform a bottom-up iteration to select the favorable values.
             for (int i = n, j = maxPrice; i > 0  &&  j >= 0; i--) {
                 int tempI   = c.get(i).get(j);
                 int tempI_1 = c.get(i-1).get(j);
@@ -95,7 +98,7 @@ public class ComicSorter {
         return ComicDataList;
     }
 
-    // add an ComicData to the ComicData list
+    // add a Comic Data to the Comic Data list
     public void add(String name, int price, int pageCount,
                     String issn, String thumbnail, String image,
                     String description, List<Price> prices, CreatorList authors) {
@@ -105,11 +108,11 @@ public class ComicSorter {
         setInitialStateForCalculation();
     }
 
-    public void add(ComicData album){
-        if (album.getTitle().equals(""))
-            album.setTitle("No Title");
-        add(album.getTitle(), album.getPrice(), album.getPageCount(), album.getIssn(),
-                album.getThumbnail(), album.getImage(), album.getDescription(), album.getPrices(), album.getAuthors());
+    public void add(ComicData comic){
+        if (comic.getTitle().equals(""))
+            comic.setTitle("No Title");
+        add(comic.getTitle(), comic.getPrice(), comic.getPageCount(), comic.getIssn(),
+                comic.getThumbnail(), comic.getImage(), comic.getDescription(), comic.getPrices(), comic.getAuthors());
     }
 
     // add an ComicData to the ComicData list
