@@ -9,4 +9,12 @@ import java.io.Serializable;
 public class CreatorSummary extends Item implements Serializable {
 
     public String role;
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
 }

@@ -161,38 +161,7 @@ public class ComicsPage extends AppCompatActivity {
         }
     }
 
-
-    /*private void initCollapsingToolbar() {
-        final CollapsingToolbarLayout collapsingToolbar =
-                (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-        collapsingToolbar.setTitleEnabled(true);
-        AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.appbar);
-        appBarLayout.setExpanded(true);
-        appBarLayout.setTargetElevation(1.5f);
-
-        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
-            boolean isShow = false;
-            int scrollRange = -1;
-
-            @Override
-            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
-                if (scrollRange == -1) {
-                    scrollRange = appBarLayout.getTotalScrollRange();
-                }
-                if (scrollRange + verticalOffset == 0) {
-                    collapsingToolbar.setTitle("comic App");
-                    getSupportActionBar().setTitle("Comic App");
-                    isShow = true;
-                } else if (isShow) {
-                    collapsingToolbar.setTitle(" ");
-                    getSupportActionBar().setTitle(" ");
-                    isShow = false;
-                }
-            }
-        });
-    }*/
-
-
+    //Prepares the comics by using the retrofit library to get the first 100 comics
     private void prepareComicData() {
 
         MarvelApi.create(PRIVATE_KEY, PUBLIC_KEY, getApplicationContext(), 50 * 1024 * 1024);
@@ -279,36 +248,10 @@ public class ComicsPage extends AppCompatActivity {
 
                 if (sorter.isCalculated()) {
                     NumberFormat nf = NumberFormat.getInstance();
-                    /*System.out.println(
-                            "Maximal weight           = " +
-                                    nf.format(sorter.getMaxPrice() / 100.0) + " kg"
-                    );
-                    System.out.println(
-                            "Max weight of solution = " +
-                                    nf.format(sorter.getSolutionPrice() / 100.0) + " kg"
-                    );
-                    System.out.println(
-                            "Max value              = " +
-                                    sorter.getProfit()
-                    );
-                    System.out.println();
-                    System.out.println(
-                            "You can carry the following materials " +
-                                    "in the knapsack:"
-                    );
-                    System.out.println(
-                            "You can buy the following comics " +
-                                    "in the knapsack:"
-                    );*/
+
                     List<ComicData> fitComicData = new ArrayList<>();
                     for (ComicData comic : optimizedComicData) {
                         if (comic.getInContainer() == 1) {
-                           /* System.out.println(
-                                    "%1$-23s %2$-4s %3$-7s %4$-15s \n," +
-                                            comic.getTitle() + "," +
-                                            (comic.getPrice() / 100) + "," + "Pounds ," +
-                                            "(Page Size = " + comic.getPageCount() + ")"
-                            );*/
                             fitComicData.add(comic);
                         }
                     }
@@ -321,7 +264,6 @@ public class ComicsPage extends AppCompatActivity {
                 }
             }
             else{
-                //TODO: //Remove the loader/ check if code reaches here...
                 resultView.setText("");
                 resultView.setVisibility(View.GONE);
                 adapter = new ComicAdapter(getApplicationContext(), comicList);
