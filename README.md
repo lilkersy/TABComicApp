@@ -6,7 +6,7 @@ The application was developed using Android Studio 2.2 and uses the Retrofit Lib
 
 The Retrofit documentation can be found in https://square.github.io/retrofit/
 
-Retrofit can be said to do for Restful web Services (or even SOAP) what wsimport does to SOAP web services.
+Retrofit can be said to do for Restful Web Services (or even SOAP) what wsimport does for SOAP Web services.
 
 What can be implemented in next version of this app.
 
